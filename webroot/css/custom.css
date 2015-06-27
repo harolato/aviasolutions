@@ -1,0 +1,91 @@
+body {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.side-nav {
+    list-style: none;
+    margin-left: 1px;
+}
+.side-nav li {
+    margin-bottom: 5px;
+    margin-left: -50px;
+}
+.actions {
+    background: #0095dd;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.8);
+}
+.submit a {
+    text-decoration: none;
+    color: #fff;
+}
+a.company {
+    color: #000;
+    text-decoration: none;
+}
+.btn.company {
+    margin-bottom: 10px;
+}
+.btn-group.company {
+    margin-right: 10px;
+}
+@keyframes spinning {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.spinner {
+    animation: spinning 1s linear infinite;
+}
+
+
+
+
+div.message {
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    font-weight: normal;
+    position: relative;
+    padding: 0.875rem 1.5rem 0.875rem 20%;
+    transition: opacity 300ms ease-out 0s;
+    background-color: #DCE47E;
+    border-color: #DCE47E;
+    color: #626262;
+}
+
+div.message.error {
+    background-color: #C3232D;
+    border-color: #C3232D;
+    color: #FFF;
+}
+
+div.message:before {
+    line-height: 0px;
+    font-size: 20px;
+    height: 12px;
+    width: 12px;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    left: -11px;
+    background-color: #FFF;
+    padding: 12px 14px 12px 10px;
+    content: "i";
+    color: #DCE47E;
+}
+
+div.message.error:before {
+    padding: 11px 16px 14px 7px;
+    color: #C3232D;
+    content: "x";
+}

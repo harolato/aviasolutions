@@ -1,4 +1,4 @@
-<div class="actions col-lg-2 col-md-3">
+<div class="actions col-lg-2 col-md-2 col-sm-2 col-xs-2">
     <h3><?= __('Actions') ?></h3>
     <ul class="side-nav">
         <li>
@@ -18,7 +18,7 @@
         </li>
     </ul>
 </div>
-<div class="app-body companies view col-lg-offset-2 col-lg-10 col-md-10">
+<div class="app-body companies view col-lg-offset-2 col-lg-10 col-md-offset-2 col-sm-10 col-sm-offset-2 col-md-10 col-xs-10 col-xs-offset-2">
     <br/>
     <a href="<?= $this->Url->build(['action' => 'index'])?>">
         <button title="Go back" type="button" class="btn btn-primary">

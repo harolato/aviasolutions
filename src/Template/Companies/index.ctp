@@ -3,7 +3,7 @@ $sort_col = $this->Paginator->config('options.url.sort');
 $sort_dir = $this->Paginator->config('options.url.direction');
 
 ?>
-<div class="actions col-lg-2 col-md-3">
+<div class="actions col-lg-2 col-md-2 col-sm-2 col-xs-2">
     <h3><?= __('Actions') ?></h3>
     <ul class="side-nav">
         <li>
@@ -13,7 +13,7 @@ $sort_dir = $this->Paginator->config('options.url.direction');
         </li>
     </ul>
 </div>
-<div class="app-body companies index col-lg-offset-2 col-lg-10 col-md-10">
+<div class="app-body companies index col-lg-offset-2 col-lg-10 col-md-offset-2 col-sm-10 col-sm-offset-2 col-md-10 col-xs-10 col-xs-offset-2">
     <h3><?= h(__("List of companies"))?></h3>
     <div style="margin-bottom: 20px;">
         <?= __("Sort by:");?>

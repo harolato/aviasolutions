@@ -26,7 +26,8 @@ class CompaniesControllerTest extends IntegrationTestCase
      */
     public function testIndex()
     {
-        $this->markTestIncomplete('Not implemented yet.');
+        $this->get('/companies');
+        $this->assertResponseOk();
     }
 
     /**
@@ -36,7 +37,8 @@ class CompaniesControllerTest extends IntegrationTestCase
      */
     public function testView()
     {
-        $this->markTestIncomplete('Not implemented yet.');
+        $this->get('/companies/view');
+        $this->assertResponseOk();
     }
 
     /**

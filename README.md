@@ -1,24 +1,39 @@
-# CakePHP Application Skeleton
+## Reikalavimai:
 
-[![Build Status](https://api.travis-ci.org/cakephp/app.png)](https://travis-ci.org/cakephp/app)
-[![License](https://poser.pugx.org/cakephp/app/license.svg)](https://packagist.org/packages/cakephp/app)
+✓ ·         Atsidarius pradinį puslapį rodomas įmonių sąrašas ir galimybė pridėti naują įmonę 
 
-A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.0.
+✓ ·         Privalomi įmonės laukai: pavadinimas, adresas, telefonas, darbuotojų skaičius
 
-## Installation
+✓ ·         Atsidarius įmonę rodomi įmonės duomenys, darbuotojų sąrašas ir galimybė pridėti naują darbuotoją
 
-1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
+✓ ·         Privalomi darbuotojo laukai: vardas, pavardė, el. pašto adresas, darbo pradžia (metai, mėnuo, diena)
 
-If Composer is installed globally, run
-```bash
-composer create-project --prefer-dist cakephp/app [app_name]
-```
+✓ ·         JavaScript formų validavimas
 
-You should now be able to visit the path to where you installed the app and see
-the setup traffic lights.
+✓ ·         Darbuotojų pašalinimas AJAX pagalba
 
-## Configuration
+✓ ·         Pageidautina, kad sąrašai būtų ne per visą ekrano plotį ir plotis kistų priklausomai nuo naršyklės pločio
 
-Read and edit `config/app.php` and setup the 'Datasources' and any other
-configuration relevant for your application.
+✓ ·         Trumpi komentarai prieš funkciją  (ką funkcija daro, kintamųjų aprašymas ir pan.)
+
+ 
+
+## Pageidautinos priemonės darbui atlikti:
+
+✕ ·         Zend Framework
+
+✓ ·         Jquery
+
+✓ ·         MySql
+
+## Komentarai
+
+Neteko dar dirbti su Zend karkasu, bet vietoj Zend panaudojau CakePHP3.
+
+
+Kad sutaupyti laiko naudojausi Cake Bake, kad sugeneruotu pamatus projektui t.y. paprasčiausias CRUD modeliams ir modeliu klasės su minimalia įvesties laukeliu validacija.
+
+
+Aplikacijos išvaizdai naudojausi Bootstrap.
+
+

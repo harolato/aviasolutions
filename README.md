@@ -31,17 +31,20 @@
 Neteko dirbti su Zend karkasu, bet vietoj Zend naudojausi CakePHP3.
 
 
+Norint paleisti aplikacija pirmą kartą reikia atsisiųsti reikalingas bibliotekas naudojant Composer įvykdžius ```composer install``` komandą pagrindinėje aplikacijos direktorijoje.
+
+
 Kad sutaupyti laiko naudojausi Cake Bake, kad sugeneruotu pamatus projektui t.y. paprasčiausias CRUD modeliams ir modeliu klasės su minimalia įvesties laukeliu validacija.
 
 
 Aplikacijos išvaizdai naudojausi Bootstrap.
 
 
-Duomenų bazės lentelės ir pavyzdiniai įrašai yra /sqlDump.sql faile
+Duomenų bazės lentelės ir pavyzdiniai įrašai yra ```/sqlDump.sql``` faile
 
-Duomenų bazės konfiguracija /config/app.php:211
+Duomenų bazės konfiguracija ```/config/app.php:211```
 
-Aplikacijos kodas yra /src direktorijoje, css ir javascript /webroot direktorijoje.
+Aplikacijos kodas yra ```/src``` direktorijoje, css ir javascript ```/webroot``` direktorijoje.
 
 
 

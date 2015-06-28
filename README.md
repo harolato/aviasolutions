@@ -39,7 +39,7 @@ Aplikacijos išvaizdai naudojausi Bootstrap.
 
 Duomenų bazės lentelės ir pavyzdiniai įrašai yra /sqlDump.sql faile
 
-Duomenų bazės konfiguracija /config/app.php
+Duomenų bazės konfiguracija /config/app.php:211
 
 Aplikacijos kodas yra /src direktorijoje, css ir javascript /webroot direktorijoje.
 
